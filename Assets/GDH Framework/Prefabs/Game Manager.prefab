@@ -1,0 +1,325 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1628975036633656
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4903734972069082}
+  - component: {fileID: 114955885704098514}
+  - component: {fileID: 114810068872046554}
+  - component: {fileID: 114468086259554328}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4903734972069082
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628975036633656}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 407, y: 150, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114955885704098514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628975036633656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cae945a45007b649acd77bf7aec7b88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameViewManager: {fileID: 0}
+  levels:
+  - player: 0
+    levelTime:
+      minutes: 0
+      seconds: 10
+    spawnPoint: {fileID: 0}
+    levelData: {fileID: 0}
+    tasks:
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 1/1'
+    isLocked: 0
+    hasLevelCompleteReward: 0
+  - player: 0
+    levelTime:
+      minutes: 0
+      seconds: 30
+    spawnPoint: {fileID: 0}
+    levelData: {fileID: 0}
+    tasks:
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 2/2'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 1/2'
+    isLocked: 0
+    hasLevelCompleteReward: 0
+  - player: 0
+    levelTime:
+      minutes: 0
+      seconds: 30
+    spawnPoint: {fileID: 0}
+    levelData: {fileID: 0}
+    tasks:
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 4/4'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 3/4'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 2/4'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 1/4'
+    isLocked: 0
+    hasLevelCompleteReward: 0
+  - player: 0
+    levelTime:
+      minutes: 0
+      seconds: 30
+    spawnPoint: {fileID: 0}
+    levelData: {fileID: 0}
+    tasks:
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 6/6'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 5/6'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 4/6'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 3/6'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 2/6'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 1/6'
+    isLocked: 0
+    hasLevelCompleteReward: 0
+  - player: 0
+    levelTime:
+      minutes: 0
+      seconds: 0
+    spawnPoint: {fileID: 0}
+    levelData: {fileID: 0}
+    tasks:
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 7/7'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 6/7'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 5/7'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 4/7'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 3/7'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 2/7'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 1/7'
+    isLocked: 0
+    hasLevelCompleteReward: 0
+  - player: 0
+    levelTime:
+      minutes: 0
+      seconds: 30
+    spawnPoint: {fileID: 0}
+    levelData: {fileID: 0}
+    tasks:
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 8/8'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 7/8'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 6/8'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 5/8'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 4/8'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 3/8'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 2/8'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 1/8/'
+    isLocked: 0
+    hasLevelCompleteReward: 0
+  - player: 0
+    levelTime:
+      minutes: 0
+      seconds: 0
+    spawnPoint: {fileID: 0}
+    levelData: {fileID: 0}
+    tasks:
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 9/9'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 8/9'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 7/9'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 6/9'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 5/9'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 4/9'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 3/9'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 2/9'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 1/9'
+    isLocked: 0
+    hasLevelCompleteReward: 0
+  - player: 0
+    levelTime:
+      minutes: 0
+      seconds: 0
+    spawnPoint: {fileID: 0}
+    levelData: {fileID: 0}
+    tasks:
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 10/10'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 9/10'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 8/10'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 7/10'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 6/10'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 5/10'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 4/10'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 3/10'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 2/10'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 1/10'
+    isLocked: 0
+    hasLevelCompleteReward: 0
+  - player: 0
+    levelTime:
+      minutes: 0
+      seconds: 0
+    spawnPoint: {fileID: 0}
+    levelData: {fileID: 0}
+    tasks:
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 10/10'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 9/10'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 8/10'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 7/10'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 6/10'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 5/10'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 4/10'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 3/10'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 2/10'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 1/10'
+    isLocked: 0
+    hasLevelCompleteReward: 0
+  - player: 0
+    levelTime:
+      minutes: 0
+      seconds: 0
+    spawnPoint: {fileID: 0}
+    levelData: {fileID: 0}
+    tasks:
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 10/10'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 9/10'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 8/10'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 7/10'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 6/10'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 5/10'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 4/10'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 3/10'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 2/10'
+    - fininshPoint: {fileID: 0}
+      instruction: 'Eniemies Left : 1/10'
+    isLocked: 0
+    hasLevelCompleteReward: 0
+  players:
+  - player: {fileID: 0}
+    playerControlls: {fileID: 0}
+  - player: {fileID: 0}
+    playerControlls: {fileID: 0}
+  - player: {fileID: 0}
+    playerControlls: {fileID: 0}
+  - player: {fileID: 0}
+    playerControlls: {fileID: 0}
+  startLevel: 5
+  gameWinDelay: 2
+  gameLoseDelay: 3
+  currentLevel: 1
+  currentPlayer: 0
+--- !u!114 &114810068872046554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628975036633656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f078804dc7743cd439b08e4faa7a688b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseDialogue: {fileID: 0}
+  levelCompleteDialogue: {fileID: 0}
+  gameCompleteDialogue: {fileID: 0}
+  gameOverDialogue: {fileID: 0}
+  exitDialogue: {fileID: 0}
+  HUD: {fileID: 0}
+  timeText: {fileID: 0}
+  instructionText: {fileID: 0}
+  coinsAmountText: {fileID: 0}
+  gameController: {fileID: 114955885704098514}
+--- !u!114 &114468086259554328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628975036633656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2252281e100ee84da0cab3f175adde0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameTime:
+    minutes: 0
+    seconds: 0
+  time: 0

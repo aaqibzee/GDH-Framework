@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/GDH Framework/Scenes/Game Play - Env1.unity
+    guid: c8e7994e97df42a438a398163c2c14d3
+  - enabled: 1
+    path: Assets/GDH Framework/Scenes/Main Menu.unity
+    guid: 8d4c71ddb9f62e742a9ad2f014e12446
+  - enabled: 1
+    path: Assets/GDH Framework/Scenes/Game Play - Env2.unity
+    guid: ee7b561c3720da14dbca197fb1b4d9de
+  - enabled: 1
+    path: Assets/GDH Framework/Scenes/Game Play - Env3.unity
+    guid: 4f2bb9bf84298ff4e9425d7eb8734272
+  - enabled: 1
+    path: Assets/GDH Framework/Scenes/Game Play - Env4.unity
+    guid: 4e7a2bd8d7124b74bb3a2cda61b6be39
+  - enabled: 1
+    path: Assets/GDH Framework/Scenes/Level Selection.unity
+    guid: 8a29a765f4ebacc489f960b74b385f6b
+  - enabled: 1
+    path: Assets/GDH Framework/Scenes/Splash Screen.unity
+    guid: 82bb7c8c845012645804f3364a050e15
+  - enabled: 1
+    path: Assets/GDH Framework/Scenes/Tutorial.unity
+    guid: dd1217e6c9e9bd44c9e77dd79fd3eb75
+  m_configObjects: {}

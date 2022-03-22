@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/GDH Framework/Scenes/Game Play - Env1.unity
+  isLoaded: 1
+  isActive: 1
