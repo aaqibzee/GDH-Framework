@@ -9,5 +9,10 @@ All the cases that are handled in every game, are going to be covered in this fr
 The developer's will just neeed to import it in the Unity project and start implementing the Game play instead of having to worry about, things that are common accross 
 most of the projects. 
 
+# Technologies
 
-Further details will be updated soon. 
+* C#
+* Unity 3D 
+
+(Will be updated furhter..)
+ 
